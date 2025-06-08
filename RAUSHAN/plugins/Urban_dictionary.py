@@ -16,14 +16,14 @@ async def urban_dictionary(_, message):
       f'https://api.urbandictionary.com/v0/define?term={text}').json()
     reply_text = f"""
 
-    """
+
 **Results for**: {text}
 
 **Defination**:
 {results["list"][0]["definition"]}\n
 **Example:**
 {results["list"][0]["example"]}
-  
+"""  
 except Exception as e:
     if str(e) == "list index out of range":
       await message.reply("Cannot find your query on Urban dictionary.")
