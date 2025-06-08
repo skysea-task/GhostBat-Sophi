@@ -18,7 +18,7 @@ async def fk():
       RAUSHAN.me.id,
       photo="https://i.imgur.com/DuoscLX.jpeg",
       caption=(
-        f"**✅ 𝐇𝐞𝐚𝐫𝐭𝐁𝐞𝐚𝐭-✗-𝐁𝐨𝐭\ ⚡**\n\n"
+        f"**✅ 𝐇𝐞𝐚𝐫𝐭𝐁𝐞𝐚𝐭-✗-𝐁𝐨𝐭 ⚡**\n\n"
         f"**👾 Version:** {MY_VERSION}\n"
         f"**🥀 Python:** {r('python --version').lower().split('python ')[1]}\n"
         f"**🐬 Owner:** {RAUSHAN.me.first_name if not RAUSHAN.me.last_name else f'{RAUSHAN.me.first_name} {RAUSHAN.me.last_name}'}\n"
