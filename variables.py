@@ -1,0 +1,11 @@
+# IF YOU CAN'T USE ENV VARIABLES FILL EVERYTHING HERE
+
+VAR_SESSION = "BQB6w5MAPCnQr_8FstvmjZyBBPo4EW7vQLdNQU2vgiWbL8t-vE74iiDVLEVMnIbtctM7sfp4QDa4vpV03WqvbehCyJeoxOtmv58KcDG214dQZ81iAWclihGUHB3b-mjSsTVwarUOzM70DMDyGWPlu2odFxYELBQUVr_Go9hRcLeaYg-0Q8ldL6KiIxpQMHjlnwHefLxPvm1Z_jXNfuI0zuOK6R81YSTqaqIOOavO4e6ntZsYxDc39k4cOxZCUP1-Ijo6x_tSYptSq-RWXhvUfJ6wCR_XI7HDz3dcAZQ8IxeWiguW5VgG572JZyjy30z62pCgUl48EAWNC9l8UL7HSG5pUT3RCwAAAABMXtJJAA"
+VAR_API_ID = "8045459"
+VAR_API_HASH = "e6d1f09120e17a4372fe022dde88511b"
+VAR_MONGO_DB_URI = "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority"
+VAR_TOKEN = "7068876137:AAHxyBy6P_UBAL-5eS9S6YBIGAlSyWJ03HA"
+VAR_REPO_URL = "https://t.me/HeartBeat_Muzic" # Change to your fork repo
+DEVELOPER_MODE = True
+
+# Use "" for strings

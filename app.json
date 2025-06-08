@@ -1,0 +1,53 @@
+{
+   "name":"RAUSHAN",
+   "description":"Beta 1.1",
+   "logo":"https://telegra.ph/file/af2a44b84e649a0a60679.jpg",
+   "keywords":[
+      "telegram",
+      "anime",
+      "Female",
+      "userbot",
+      "RAUSHAN"
+   ],
+   "repository":"https://github.com/Otazuki004/RAUSHANUB",
+   "addons":[
+      {
+         "options":{
+            "version":"15"
+         },
+         "plan":"heroku-postgresql:mini"
+      }
+   ],
+   "env":{
+      "API_ID":{
+         "description":"Get API_ID from my.telegram.org",
+         "required":true,
+         "value":""
+      },
+      "API_HASH":{
+         "description":"Get API_HASH from my.telegram.org",
+         "required":true,
+         "value":""
+      },
+      "SESSION":{
+         "description":"Your Pyrogram V2 String Session.",
+         "required":true,
+         "value":""
+      },
+      "MONGO_DB_URI":{
+         "description":"Your MongoDB URI, database is Required for This Userbot.",
+         "required":true,
+         "value":""
+      },
+      "TOKEN":{
+         "description":"Your bot token, if you don't have get from t.me/botfather",
+         "required":true,
+         "value":""
+      },
+      "YOUR_REPO_LINK":{
+         "description":"If You Forked The repo paste your repo link here.",
+         "required":true,
+         "value":""
+      }
+   }
+}

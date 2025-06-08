@@ -1,0 +1,20 @@
+user:
+  name: Otazuku
+  github: Otazuki004
+
+language: "python"
+python_version: "3.11"
+
+commands:
+  build:
+    - "pip install -U -r requirements.txt"
+  package:
+    - "ffmpeg"
+    - "build-essential"
+    - "libffi-dev"
+    - "gcc"
+  start:
+    - "python3 -m RAUSHAN"
+
+env:
+  - "ENVIRONMENT=production"
