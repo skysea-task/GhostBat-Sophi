@@ -1,4 +1,4 @@
-""" from RAUSHAN import HANDLER
+from RAUSHAN import HANDLER
 from RAUSHAN.__main__ import RAUSHAN as RAUSHAN
 from config import OWNER_ID
 from pyrogram import filters
@@ -23,8 +23,8 @@ async def urban_dictionary(_, message):
 {results["list"][0]["definition"]}\n
 **Example:**
 {results["list"][0]["example"]}
-"""
- """ except Exception as e:
+  
+except Exception as e:
     if str(e) == "list index out of range":
       await message.reply("Cannot find your query on Urban dictionary.")
       return
