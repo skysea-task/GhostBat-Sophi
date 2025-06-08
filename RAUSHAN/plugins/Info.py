@@ -1,4 +1,4 @@
-""" from pyrogram import filters
+from pyrogram import filters
 from config import OWNER_ID, SUDO_USERS_ID
 from RAUSHAN import HANDLER
 from RAUSHAN.__main__ import RAUSHAN
@@ -41,9 +41,7 @@ async def cinfo(_, m):
         await message.delete()
 
 
-no_reply_user = """
-
-""" ╒═══「 Appraisal results:」
+no_reply_user = """╒═══「 Appraisal results:」
 
 **ɪᴅ**: `{}`
 **ᴅᴄ**: `{}`
@@ -53,11 +51,11 @@ no_reply_user = """
 **ᴜsᴇʀʙɪᴏ**: `{}`
 **sᴜᴅᴏ ᴜsᴇʀ**: `{}`
 
-**Powered by: @Hyper_Speed0 & @FutureCity005 🥀**
+**Powered by: @HeartBeat_Muzic & @HeartBeat_Offi **
 """
 
 
-""" @RAUSHAN.on_message(filters.command("info", prefixes=HANDLER) & filters.user(OWNER_ID))
+@RAUSHAN.on_message(filters.command("info", prefixes=HANDLER) & filters.user(OWNER_ID))
 async def info(_, m):
     message = m
     reply = m.reply_to_message
